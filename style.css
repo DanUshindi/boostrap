@@ -13,10 +13,37 @@ li {
 }
 
 .title {
-  color:mediumslateblue;
+  color: mediumslateblue;
   font-weight: 400;
 }
 
 .language {
   border-bottom: 2px solid black;
+}
+
+.footer {
+  margin-bottom: 50px;
+}
+
+.footer h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #9390ff;
+}
+
+.footer p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  max-width: 80ch;
 }
