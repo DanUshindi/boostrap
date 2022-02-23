@@ -1,0 +1,22 @@
+body {
+  background: midnightblue;
+}
+
+.section1 {
+  flex-direction: column;
+  color: white;
+  border-bottom: 2px solid black;
+}
+
+li {
+  list-style: none;
+}
+
+.title {
+  color:mediumslateblue;
+  font-weight: 400;
+}
+
+.language {
+  border-bottom: 2px solid black;
+}
