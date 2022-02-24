@@ -2,6 +2,8 @@ body {
   background: midnightblue;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
 .section1 {
   flex-direction: column;
   color: white;
@@ -21,12 +23,17 @@ li {
   border-bottom: 2px solid black;
 }
 
+img {
+  width: 400px;
+  height: 300px;
+}
+
 .footer {
   margin-bottom: 50px;
 }
 
 .footer h2 {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -38,7 +45,7 @@ li {
 }
 
 .footer p {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
